@@ -1,0 +1,94 @@
+body{
+  background-color: #411C5F;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chamada-de-duvida {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+  color: #fff;
+}
+
+.titulo {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+}
+
+.paragrafo-informativo {
+  font-size: 15px;
+  width: 300px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.formulario .campo-input {
+  width: 298.013px;
+  height: 35.11px;
+  padding: 8px;
+  border: #c3c3c3 1px solid;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.formulario .mensagem {
+  height: 100px;
+}
+
+.campo-formulario {
+  position: relative;
+}
+
+.alerta-preenchimento {
+  font-size: 10px;
+  font-weight: 400;
+  color: #f52e2e;
+  position: absolute;
+  left: 0;
+  bottom: 4.3px;
+  display: none;
+}
+
+.alerta-preenchimento.ativo {
+  display: block;
+}
+
+.formulario span {
+  margin-bottom: 11px;
+  font-weight: 400;
+}
+
+#botao {
+  color: #fff;
+  background-color: #3ccc87;
+  border: transparent;
+  width: 298.013px;
+  height: 35.11px;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.campo-valido {
+  border: 1.5px solid #00c22b;
+}
+
+.campo-nao-valido {
+  border: 1.5px solid #f52e2e;
+}

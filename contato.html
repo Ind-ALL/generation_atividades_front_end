@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/contato.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="./assets/images/logo-urna-gotica.png" alt="logo Urna Gótica" />
+      <h1>Urna Gótica</h1>
+    </a>
+
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="vampiros.html">Vampiros</a></li>
+        <li><a href="zumbis.html">Zumbis</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="chamada-de-duvida">
+      <h1 class="titulo">
+        Deixe sua marca neste mundo de fantasia gótica<br />
+        nos mande uma mensagem!
+      </h1>
+
+      <p class="paragrafo-informativo">
+        Estamos ansiosos para ouvir suas histórias, ideias e sugestões. Entre em contato conosco e juntos daremos vida a novos horrores e encantamentos!
+      </p>
+    </div>
+
+    <form class="formulario">
+      <div class="campo-formulario">
+        <input
+          id="nome-completo"
+          class="campo-input"
+          type="text"
+          placeholder="Nome Completo *"
+        />
+        <small class="alerta-preenchimento">campo obrigatório</small>
+      </div>
+
+      <div class="campo-formulario">
+        <input
+          id="email"
+          class="campo-input"
+          type="email"
+          placeholder="Email *"
+        />
+        <small class="alerta-preenchimento">campo obrigatório</small>
+      </div>
+
+      <div class="campo-formulario">
+        <input
+          id="assunto"
+          class="campo-input"
+          type="text"
+          placeholder="Assunto *"
+        />
+        <small class="alerta-preenchimento">campo obrigatório</small>
+      </div>
+
+      <div class="campo-formulario">
+        <textarea
+          id="msg"
+          class="mensagem campo-input"
+          placeholder="Mensagem *"
+        ></textarea>
+        <small class="alerta-preenchimento">campo obrigatório</small>
+      </div>
+
+      <span>*campos obrigatórios</span>
+
+      <button type="submit" id="botao">Enviar</button>
+    </form>
+  </main>
+
+<a href="index.html">Home</a>
+</body>
+</html>

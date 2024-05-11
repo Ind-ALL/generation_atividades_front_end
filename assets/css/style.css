@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+body{
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  background-color: #272525;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo h1{
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 5px;
+  color: #FFFFFF;
+}
+
+.logo img{
+  width: 40px;
+  height: 50px;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+}
+
+.menu li a{
+  padding: 10px 5px;
+  transition: 0.3s ease-in-out;
+  font-size: 15px;
+  margin-left: 20px;
+  color: #FFFFFF;
+}
+
+.menu li a:hover{
+  background-color: #411C5F;
+  color: #FFFFFF;
+}
+
+.roxo,
+.branca {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 40vh;
+  padding: 35px 0;
+  justify-content: center;
+  gap: 40px;
+}
+
+
+
+.roxo {
+  background-color: #411C5F;
+  color: #fff;
+}
+
+.branca {
+  background-color: #ffffff;
+  color: #411C5F;
+}
+
+.roxo .imagens{
+  max-width: 600px;
+  width: 100%;
+}
+
+.branca .imagens {
+  max-width: 400px;
+  width: 100%;
+}
+
+#home .imagens{
+  max-width: 800px;
+  width: 100%;
+}
+
+.textos {
+  max-width: 500px;
+}
+
+.titulos {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  margin: 20px 0;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.paragrafos {
+  font-size: 20px;
+}
